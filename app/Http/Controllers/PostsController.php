@@ -20,14 +20,4 @@ class PostsController extends Controller
         $data = ['post' => $post];
         return view('posts.show', $data);
     }
-
-    public function store(PostRequest $request)
-    {
-        //
-    }
-
-    public function update(PostRequest $request)
-    {
-        //
-    }
 }
